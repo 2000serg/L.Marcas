@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>ejercicio5</title>
+	</head>
+	<body>
+		<form>
+			nombre del alumno:
+			<input type="text" name="nombre_alumno" value="" size="20" maxlength="25"/> <br/>
+			
+			contraseña:
+			<input type="password" name="clave" value="" size="8" maxlength="8"/> <br/>
+			
+			"dato oculto(hidden):"
+			<input type="hidden" name="campo_oculto" value="valor_oculto" /> <br/>
+			
+			<!--checkbox-->
+			puesto de trabajo buscado:<br/>
+			<input type="checkbox" name="director" value="director" /> 
+			director <br/>
+			<input type="checkbox" name="tecnico" value="tecnico" /> 
+			técnico <br/>
+			<input type="checkbox" name="intermedio" value="intermedio" /> 
+			intermedio <br/>
+			<input type="checkbox" name="auxiliar" value="auxiliar" /> 
+			auxiliar <br/>
+			<br/>
+			<br/>
+			
+			<!--radio-->
+			numero de empleados en la empresa:</br>
+			<input type="radio" name="n_empleados" value="0" /> 
+			de 0 a 10 <br/>
+			<input type="radio" name="n_empleados" value="10" /> 
+			de 11 a 59 <br/>
+			<input type="radio" name="n_empleados" value="50" /> 
+			mas de 50 <br/>
+			<br/>
+			<br/>
+			
+			<!--reset-->
+			<input type="reset" name="borrar" value="borrar formulario" /> 
+			
+			<!--submit-->
+			<input type="submit" name="enviar" value="enviar formulario" /> 
+			
+			<!--image-->
+			<input type="image" name="imagen" scr="aceptar.jpg" /> 
+			
+			<!--file-->
+			<form action="formulario.php" method="post" enctype="multipart/form-data">
+			<input type="file" name="adjunto" value="seleccionar archivo" /> 
+			</form>
+			
+			<!--range-->
+			precio a buscar<br/>
+			0€
+			<input type="range" name="rango" min="0" max="100"/> 
+			100€
+			<br/>
+					
+			<!--color-->
+			<input type="color" name="color" value="#ff00ff"/> 
+			<br/>
+			
+			<!--number-->
+			<input type="number" name="numero" value="#ff0000"/> 
+			<br/>
+			
+			<!--email-->
+			<input type="email" name="numero" value="e-mail"/> 
+			<br/>
+					
+		</form>
+	</body>
+</html>

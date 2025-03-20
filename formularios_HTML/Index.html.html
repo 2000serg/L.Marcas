@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contratación de Línea Móvil</title>
+	<link rel="stylesheet" href="./ejercicio1formulario.css"/> 
+</head>
+<body>
+
+    <h1>Formulario de Contratación de Línea Móvil</h1><br><br>
+    
+    <form action="#" method="post">
+      
+        <label for="nombre">Nombre del usuario:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br><br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required><br><br><br>
+
+       
+        <label for="cuenta">Número de cuenta bancaria:</label>
+        <input type="text" id="cuenta" name="cuenta" required><br><br><br>
+
+       
+        <label for="tarifa">Tarifa:</label>
+        <select id="tarifa" name="tarifa" required>
+            <option value="Tarifa Joven">Tarifa Joven</option>
+            <option value="Tarifa Sénior">Tarifa Sénior</option>
+            <option value="Tarifa Plana Superior">Tarifa Plana Superior</option>
+        </select><br><br><br>
+
+        
+        <label for="fecha_comienzo">Fecha de comienzo del servicio:</label>
+        <input type="date" id="fecha_comienzo" name="fecha_comienzo" required><br><br><br>
+
+       
+        <label>¿Desea recibir notificaciones por SMS?</label><br><br><br>
+        <input type="radio" id="sms_si" name="sms" value="Sí" required> Sí<br><br>
+        <input type="radio" id="sms_no" name="sms" value="No"> No<br><br><br>
+
+        
+        <button type="submit">Enviar</button>
+        <button type="reset">Reiniciar</button>
+    </form>
+
+</body>
+</html>

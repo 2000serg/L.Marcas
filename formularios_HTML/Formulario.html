@@ -1,0 +1,52 @@
+<!doctype HTML>
+	<html>
+		<head>
+			<title>EjercicioFormularios2</title>
+			<meta charset="utf-8">
+			<meta name="autor" content="Sergio Fuente">
+			
+		</head>
+			<body>
+			<fieldset>
+				<legend>Datos básicos</legend>
+			<form action="Recoger.php" method="get">
+				nombre del alumno:
+				<input type="text" name="nombre" value="" size="20" maxlength="25"/> <br> <br>
+				Me gusta que me llamen:
+				<input type="text" name="apodo" value="" size="20" maxlength="25"/> <br> <br>
+				Ultimos estudios:
+				<select>
+					<option>Grado Superior</option>
+					<option>Eso</option>
+					<option>Grado Medio</option>
+					<option>Carrera</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Aficiones</legend>
+			
+			
+				Deporte
+				<input type="checkbox" name="check"> <br>
+				Videojuegos
+				<input type="checkbox" name="check"> <br>
+				Musica
+				<input type="checkbox" name="check"><br>
+				Otros
+				<input type="checkbox" name="check"><br>
+			
+			</fieldset>
+			<p>Mas sobre mi</p>
+					
+						<textarea name="descripcion" rows="10" col="30"></textarea>
+					
+						Estudiar
+						<input type="radio" name="radio"> <br>
+						Trabajar
+						<input type="radio" name="radio"> <br>
+						
+						<input type="submit" value="Enviar">
+					
+			</form>		
+			</body>
+	</html>	
